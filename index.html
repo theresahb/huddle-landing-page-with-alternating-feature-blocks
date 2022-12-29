@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ac9e4890da.js" crossorigin="anonymous"></script>
+    <link href="dist/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/input.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+</head>
+<body>
+    <header class="bg-mobileBg md:bg-desktopBg bg-no-repeat bg-cover bg-bottom bg-veryPaleCyan pt-5 pb-8 md:px-12">
+        <nav class="nav flex justify-between items-center py-2 px-6 w-full">
+            <div class="w-[8rem]">
+                <img src="images/logo.svg" alt="" class="w-full">
+            </div>
+            <button class="font-Poppins font-[600] text-veryDarkCyan bg-white py-2 px-8 shadow-md rounded-full text-xs">Try It Free</button>
+        </nav>
+        <div class="flex flex-col items-center gap-y-16 mt-24 px-6 md:flex-row md:gap-x-4 ">
+            <div class=" ill flex flex-col items-center gap-y-4 text-center md:text-left md:items-start md:gap-y-6">
+                <h1 class="font-Poppins font-[700] text-3xl lg:text-4xl">Build The Community Your Fans Will Love</h1>
+                <p class="font-OpenSans">
+                    Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+                    Create connections with your users as you engage in genuine discussion.
+                </p>
+                <button class="bg-pink outline-none text-white border-none rounded-full py-3 px-7 w-80 font-Poppins font-[500] text-sm hover:opacity-70">Get Started For Free</button>
+            </div>
+            <div class="w-11/12">
+                <img src="images/illustration-mockups.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="flex flex-col gap-y-8 py-12 px-10 mt-20 mb-52 md:px-12">
+            <div class="flex justify-center items-center">
+                <div class="points flex flex-col gap-y-12 justify-center items-center text-center border-none rounded-lg shadow-boxShad w-full py-12 px-4 md:flex-row-reverse md:text-left md:px-8">
+                    <div class="points-img w-80 md:w-2/3 md:max-w-xs">
+                        <img src="images/illustration-grow-together.svg" alt="" class="w-full">
+                    </div>
+                    <div class="flex flex-col gap-y-4 ">
+                        <h1 class="font-Poppins font-[700] text-xl text-veryDarkCyan">Grow Together</h1>
+                        <p class="font-OpenSans">
+                            Generate meaningful discussions with your audience and build a strong, loyal community. 
+                            Think of the insightful conversations you miss out on with a feedback form.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <div class="points flex flex-col gap-y-12 justify-center items-center text-center border-none rounded-lg shadow-boxShad w-full py-12 px-4 md:flex-row-reverse md:text-left md:px-8 md:gap-x-8">
+                    <div class="points-img w-80 md:w-2/3 md:max-w-xs">
+                        <img src="images/illustration-flowing-conversation.svg" alt="">
+                    </div>
+                    <div class="flex flex-col gap-y-4">
+                        <h1 class="font-Poppins font-[700] text-xl text-veryDarkCyan">Flowing Conversations</h1>
+                        <p class="font-OpenSans">
+                            You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+                            have just-in-time loading for a more natural flow.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <div class="points flex flex-col gap-y-12 justify-center items-center text-center border-none rounded-lg shadow-boxShad w-full py-12 px-4 md:flex-row-reverse md:text-left md:px-8">
+                    <div class="points-img w-80 md:w-2/3 md:max-w-xs">
+                        <img src="images/illustration-your-users.svg" alt="">
+                    </div>
+                    <div class="flex flex-col gap-y-4 ">
+                        <h1 class="font-Poppins font-[700] text-xl text-veryDarkCyan">Your Users</h1>
+                        <p class="font-OpenSans">
+                            It takes no time at all to integrate Huddle with your app's authentication solution. 
+                            This means, once signed in to your app, your users can start chatting immediately.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-center relative">
+            <div class="ready flex justify-center items-center absolute -top-28">
+                <div class="flex flex-col gap-y-6 justify-center items-center text-center bg-white shadow-boxShad border-none rounded-xl mt-8 mb-8 py-8 px-4 w-[26rem]">
+                    <h1 class="font-Poppins font-[700] text-xl text-veryDarkCyan">Ready To Build Your Community?</h1>
+                    <button class="bg-pink outline-none text-white border-none rounded-full py-3 px-7 w-72 font-Poppins font-[500] text-sm hover:opacity-70">Get Started For Free</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="flex flex-col gap-y-6 bg-veryDarkCyan font-OpenSans pt-36 pb-8 px-4 md:px-12">
+            <div class="footer-logo w-[10rem] text-white">
+                <img src="images/logo.svg" alt="" class="fill-current">
+            </div>
+            <div class="flex flex-col gap-y-8 md:flex-row md:justify-between md:w-full md:items-start">
+                <div class="flex flex-col gap-y-5 text-sm md:w-[25rem]">
+                    <p class="flex items-start gap-x-3 text-white"><img src="images/icon-location.svg" alt=""> 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <p class="flex items-start gap-x-3 text-white"><img src="images/icon-phone.svg" alt=""> 
+                        +1-543-123-4567
+                    </p>
+                    <p class="flex items-start gap-x-3 text-white"><img src="images/icon-email.svg" alt=""> 
+                        example@huddle.com
+                    </p>
+                </div>
+                <ul class="flex flex-col gap-y-2 text-white text-sm md:flex-row md:gap-x-20 ">
+                    <ul class="flex flex-col gap-y-2">
+                        <li class="hover:underline"><a href="#">About Us</a></li>
+                        <li class="hover:underline"><a href="#">What We Do</a></li>
+                        <li class="hover:underline"><a href="#">FAQ</a></li>
+                    </ul>
+                    <ul class="flex flex-col gap-y-2">
+                        <li class="hover:underline"><a href="#">Career</a></li>
+                        <li class="hover:underline"><a href="#">Blog</a></li>
+                        <li class="hover:underline"><a href="#">Contact</a></li>
+                    </ul>
+                </ul>
+                <div class="flex flex-col gap-y-3 justify-center items-center text-center text-white md:justify-between md:h-full md:items-start">
+                    <div class="flex space-x-5">
+                        <a href="#"><i id="icon" class="fa fa-brands fa-facebook-f border-white border rounded-full p-4 w-2 h-2 flex justify-center items-center hover:text-pink hover:border-pink"></i></a>
+                        <a href="#"><i id="icon" class="fa fa-brands fa-twitter border-white border rounded-full p-4 w-2 h-2 flex justify-center items-center hover:text-pink hover:border-pink"></i></a>
+                        <a href="#"><i id="icon" class="fa fa-brands fa-instagram border-white border rounded-full p-4 w-2 h-2 flex justify-center items-center hover:text-pink hover:border-pink"></i></a>
+                    </div>
+                    <div class="copy">
+                        <p class="text-xs">&copy; Copyright 2018 Huddle. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+</html>
